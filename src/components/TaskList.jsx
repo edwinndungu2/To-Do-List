@@ -1,5 +1,5 @@
 import React from "react";
-import TaskItem from "./TaskItem.jsx"; // Ensure this path is correct
+import TaskItem from "./TaskItem.jsx"; 
 
 const TaskList = ({ tasks, onDelete, onEdit }) => {
   return (
