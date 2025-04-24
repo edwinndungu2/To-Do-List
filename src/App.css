@@ -1,38 +1,116 @@
-.App {
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background: #1a1a1a; /* Dark background for a techy feel */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+}
+
+.container {
+  width: 90%;
+  max-width: 800px;
+  padding: 20px;
+  background-color: #2c2c2c; /* Dark gray container for a techy vibe */
+  border-radius: 10px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4); /* Deeper shadow for tech aesthetics */
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.title {
+  font-size: 2.5rem;
+  color: #00bcd4; /* Tech blue color */
+  margin-bottom: 20px;
+  font-weight: bold;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.input-group {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  margin-bottom: 20px;
+}
+
+.input-text {
+  width: 75%;
+  padding: 12px;
+  border: 1px solid #444; /* Dark border for the input */
+  border-radius: 5px;
+  font-size: 1rem;
+  background-color: #333; /* Dark background for input fields */
+  color: #fff; /* White text in input for contrast */
+}
+
+.input-text:focus {
+  outline: none;
+  border-color: #00bcd4; /* Blue border on focus */
+}
+
+.btn-add {
+  padding: 12px 20px;
+  background-color: #00bcd4; /* Tech blue button */
   color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-.App-link {
-  color: #61dafb;
+.btn-add:hover {
+  background-color: #0097a7; /* Slightly darker blue on hover */
+  transform: scale(1.05); /* Slight zoom effect on hover */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.task-list {
+  margin-top: 30px;
+}
+
+.task-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #383838; /* Dark task background */
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+}
+
+.task-text {
+  font-size: 1.2rem;
+  color: #fff; /* White text for tasks */
+  margin: 0;
+}
+
+.task-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.task-actions button {
+  background-color: transparent;
+  border: none;
+  font-size: 1.2rem;
+  color: #00bcd4; /* Matching blue color for icons */
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.task-actions button:hover {
+  color: #0097a7; /* Darker blue on hover */
+}
+
+.task-actions button:focus {
+  outline: none;
+}
+
+.no-tasks {
+  text-align: center;
+  font-size: 1.5rem;
+  color: #888;
+  margin-top: 30px;
 }
