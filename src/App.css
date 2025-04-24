@@ -1,28 +1,28 @@
-/* Global Styles */
+
 body {
   font-family: 'Arial', sans-serif;
-  background: #1a1a1a; /* Dark background for a techy feel */
+  background: #1a1a1a; 
   margin: 0;
   padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* Full viewport height */
+  height: 100vh; 
 }
 
 .container {
   width: 90%;
   max-width: 800px;
   padding: 20px;
-  background-color: #2c2c2c; /* Dark gray container for a techy vibe */
+  background-color: #2c2c2c; 
   border-radius: 10px;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4); /* Deeper shadow for tech aesthetics */
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4); 
   text-align: center;
 }
 
 .title {
   font-size: 2.5rem;
-  color: #00bcd4; /* Tech blue color */
+  color: #00bcd4; 
   margin-bottom: 20px;
   font-weight: bold;
 }
@@ -37,21 +37,21 @@ body {
 .input-text {
   width: 75%;
   padding: 12px;
-  border: 1px solid #444; /* Dark border for the input */
+  border: 1px solid #444; 
   border-radius: 5px;
   font-size: 1rem;
-  background-color: #333; /* Dark background for input fields */
-  color: #fff; /* White text in input for contrast */
+  background-color: #333; 
+  color: #fff; 
 }
 
 .input-text:focus {
   outline: none;
-  border-color: #00bcd4; /* Blue border on focus */
+  border-color: #00bcd4; 
 }
 
 .btn-add {
   padding: 12px 20px;
-  background-color: #00bcd4; /* Tech blue button */
+  background-color: #00bcd4; 
   color: white;
   border: none;
   border-radius: 5px;
@@ -61,8 +61,8 @@ body {
 }
 
 .btn-add:hover {
-  background-color: #0097a7; /* Slightly darker blue on hover */
-  transform: scale(1.05); /* Slight zoom effect on hover */
+  background-color: #0097a7; 
+  transform: scale(1.05); 
 }
 
 .task-list {
@@ -73,16 +73,16 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #383838; /* Dark task background */
+  background-color: #383838; 
   padding: 15px;
   margin-bottom: 10px;
   border-radius: 5px;
-  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2); /* Soft shadow for depth */
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.2); 
 }
 
 .task-text {
   font-size: 1.2rem;
-  color: #fff; /* White text for tasks */
+  color: #fff; 
   margin: 0;
 }
 
@@ -95,13 +95,13 @@ body {
   background-color: transparent;
   border: none;
   font-size: 1.2rem;
-  color: #00bcd4; /* Matching blue color for icons */
+  color: #00bcd4; 
   cursor: pointer;
   transition: color 0.3s ease;
 }
 
 .task-actions button:hover {
-  color: #0097a7; /* Darker blue on hover */
+  color: #0097a7; 
 }
 
 .task-actions button:focus {

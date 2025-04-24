@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "./App.css"; // Ensure this is correct, as your CSS file is in the `src` folder
+import "./App.css"; 
 import TaskInput from "./components/TaskInput.jsx";
 import TaskList from "./components/TaskList.jsx";
 
